@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ProjectPST</string>
+    <string name="log_in">LOG IN</string>
+    <string name="sign_up">sign up</string>
 </resources>
