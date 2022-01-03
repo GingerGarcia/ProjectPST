@@ -42,7 +42,7 @@
         app:srcCompat="@drawable/logopantallas" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/etnombreregistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -56,7 +56,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/etemailregistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -67,10 +67,10 @@
         android:minHeight="48dp"
         android:textColorHint="#FDFDFD"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/etnombreregistro" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/etusernameregistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -81,10 +81,10 @@
         android:minHeight="48dp"
         android:textColorHint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/etemailregistro" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/etpasswordregistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -95,7 +95,7 @@
         android:minHeight="48dp"
         android:textColorHint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/etusernameregistro" />
 
     <Button
         android:id="@+id/button4"
@@ -108,5 +108,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etpasswordregistro" />
 </androidx.constraintlayout.widget.ConstraintLayout>
