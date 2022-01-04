@@ -1,16 +1,11 @@
 package com.pst.projectpst;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
-
 import com.google.zxing.Result;
-
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
 public class Activity4 extends AppCompatActivity implements ZXingScannerView.ResultHandler {
