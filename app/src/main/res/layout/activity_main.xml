@@ -48,6 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:backgroundTint="#FFFFFF"
+        android:onClick="inicio"
         android:text="INICIO"
         android:textColor="#050505"
         android:textColorHighlight="#F4F3F3"
