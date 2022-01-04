@@ -15,7 +15,7 @@ public class Activity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
         etUser = (EditText)findViewById(R.id.editTextTextPersonName);
-        etContra=(EditText)findViewById(R.id.editTextPassword);
+        etContra=(EditText)findViewById(R.id.editTextTextPassword2);
     }
     public void login(View view) {
         Intent i = new Intent(this, Activity4.class );
