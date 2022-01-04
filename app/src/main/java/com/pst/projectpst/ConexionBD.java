@@ -5,7 +5,6 @@ import java.sql.SQLException;
 import java.sql.Connection;
 
 public class ConexionBD {
-
     //private static final String driver = "com.mysql.cj.jdbc.Driver";
     private static final String DRIVER = "org.mariadb.jdbc.Driver";
     private static final String NOMBRE_BD = "343015";
