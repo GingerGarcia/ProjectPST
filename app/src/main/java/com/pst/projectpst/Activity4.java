@@ -1,5 +1,6 @@
 package com.pst.projectpst;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -32,6 +33,11 @@ public class Activity4 extends AppCompatActivity implements ZXingScannerView.Res
 
     @Override
     public void handleResult(Result result) {
+        AlertDialog.Builder builder= new AlertDialog.Builder(this);
+        builder.setTitle("Resultado de escaner");
+        builder.setMessage(result.getText());
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
         nombreCaja=result.getText();
         escanerView.resumeCameraPreview(this);
 
