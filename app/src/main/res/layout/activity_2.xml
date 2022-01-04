@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/rectangle1" />
+        app:srcCompat="@drawable/background" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -36,7 +36,6 @@
         android:layout_marginTop="60dp"
         android:ems="10"
         android:hint="User Name"
-        android:hintTextColor="#000000"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="#FFFFFF"
@@ -61,7 +60,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#FFFFFF"
         android:onClick="singup"
         android:text="@string/sign_up"
